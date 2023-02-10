@@ -9,4 +9,4 @@ spring:
     generate-ddl: true
     show-sql: true 
     
-msg: welcomehome
+data: welcomehome

@@ -8,4 +8,4 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show-sql: true 
-data: Test data 10
+data: Test data 11
