@@ -2,8 +2,10 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/userandrole
-    username: root
-    password: root
+    username: ${username-dev}
+    password: ${password-dev}
+    platform: mysql
+    initialization-mode: always
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
