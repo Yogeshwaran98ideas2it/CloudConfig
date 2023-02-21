@@ -10,6 +10,10 @@ spring:
 #    password: root
     platform: mysql
     initialization-mode: always
+  security:
+    user:
+      name: user
+      password: pass
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
