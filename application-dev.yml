@@ -26,3 +26,4 @@ spring:
           physical-strategy=org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     
 data: welcomehome
+secret: healthcare
